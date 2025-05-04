@@ -12,13 +12,18 @@ The code provided was written for OpenFoam version 8 and requires modifications 
 Follow the instructions below:
 
 * Clone the code to your computer:
-* Copy the CDRFGcede directory to $FOAM_UTILITIES/preProcessing/:
-* Compile the code in $FOAM_UTILITIES/preProcessing/CDRFGcede:
+* Copy the CDRFGcode directory to $FOAM_UTILITIES/preProcessing/:
+* Compile the code in $FOAM_UTILITIES/preProcessing/CDRFGcode:
   
-          $ cd $FOAM_UTILITIES/preProcessing/CDRFGcede
+          $ cd $FOAM_UTILITIES/preProcessing/CDRFGcode
   
           $ ./Allwclean
 
           $ ./Allwmake
+
+  The CDRFG is now compiled for use in OpenFOAM software and can be run with the ` cdrfgRun ` command in serial.
+
+
+  
 
 
